@@ -1,62 +1,62 @@
 /* ELEMENTS */
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f9f6f2;
+	font-family: 'Roboto', sans-serif;
+	background-color: #f9f6f2;
 }
 
 h2,
 h3,
 ul {
-  text-align: center;
+	text-align: center;
 }
 
 ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 hr {
-  background-color: black;
+	background-color: black;
 }
 
 p {
-  font-size: 1.250rem;
+	font-size: 1.250rem;
 }
 
 .container-fluid {
-  padding: 5% 10% 10%;
+	padding: 5% 10% 10%;
 }
 
 /* TITLE SECTION */
 
 #title-section {
-  background-color: #5588a3;
-  color: #f9f6f2;
+	background-color: #5588a3;
+	color: #f9f6f2;
 }
 
 .navbar {
-  padding: 0 0 4.5rem;
-  font-size: 1.250rem;
+	padding: 0 0 4.5rem;
+	font-size: 1.250rem;
 }
 
 .nav-item {
-  margin: 4px 15px;
+	margin: 4px 15px;
 }
 
 .title-heading {
-  line-height: 1.5;
-  font-size: 3.125rem;
+	line-height: 1.5;
+	font-size: 3.125rem;
 }
 
 .subtitle {
-  line-height: 2;
-  font-size: 1.250rem;
-  padding-top: 0.060rem;
+	line-height: 2;
+	font-size: 1.250rem;
+	padding-top: 0.060rem;
 }
 
 .title-img {
-  width: 80%;
-  margin-left: 15%;
+	width: 80%;
+	margin-left: 15%;
 }
 
 /* GALLERY SECTION */
@@ -65,80 +65,76 @@ p {
 #our-mission-section,
 #pricing-section,
 #contact-Section {
-  padding: 5% 0;
+	padding: 5% 0;
 }
 
 .description {
-  width: 70%;
-  margin: 0 auto;
-  padding: 5% 3%;
+	width: 70%;
+	margin: 0 auto;
+	padding: 5% 3%;
 }
 
 .img-description {
-  font-size: 1.250rem;
-  padding: 0.040rem;
+	font-size: 1.250rem;
+	padding: 0.040rem;
 }
 
 /* PRICING SECTION */
 
 .card-card-header {
-  text-align: center;
+	text-align: center;
 }
 
 /* FOOTER */
 
 #footer {
-  background-color: #5588a3;
-  padding: 5% 5% 2%;
-  text-align: center;
+	background-color: #5588a3;
+	padding: 5% 5% 2%;
+	text-align: center;
 }
 
 .copyright {
-  color: #fff;
+	color: #fff;
 }
 
 .social-icons {
-  margin: 0.313rem 1.875rem;
-  font-size: 1.250rem;
+	margin: 0.313rem 1.875rem;
+	font-size: 1.250rem;
 }
 
 .social-icons:hover {
-  color: #fff;
+	color: #fff;
 }
 
 @media only screen and (max-width: 768px) {
-  .title-img {
-    width: 70%;
-  }
+	.title-img {
+		width: 70%;
+	}
 
-  .gallery-img {
-    width: 55%;
-    margin: auto;
-    padding-bottom: 6%;
-  }
+	.gallery-img {
+		width: 55%;
+		margin: auto;
+		padding-bottom: 6%;
+	}
 
-  .img-description {
-    margin-top: 6%;
-  }
+	.img-description {
+		margin-top: 6%;
+	}
 
-  .card-transform {
-    width: 65%;
-    margin: auto;
-  }
+	.card-transform {
+		width: 65%;
+		margin: auto;
+	}
 
-  .card-2 {
-    margin: 35px auto;
-  }
+	.card-2 {
+		margin: 35px auto;
+	}
 
-  .description-transform {
-    padding-bottom: 22%;
-  }
+	.description-transform {
+		padding-bottom: 22%;
+	}
 
-  body {
-    text-align: center;
-  }
-
-  #title-section {
-    text-align: center;
-  }
+	#title-section {
+		text-align: center;
+	}
 }
